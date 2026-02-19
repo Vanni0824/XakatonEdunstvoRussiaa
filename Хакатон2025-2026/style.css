@@ -1,0 +1,243 @@
+body {
+font-size: 1.6rem;
+    background-image: url(./img/narod.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #bd6262;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: auto;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(136, 131, 131);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #1d1b1b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.fade-in {
+  opacity: 0; /* начальное значение непрозрачности */
+  animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
+  animation-fill-mode: forwards; /* будет видимым после завершения анимации */
+  animation-duration: 1s; /* длительность анимации в 1 секунду */
+  color:#1d1b1b;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+header {
+  opacity: 0;
+  animation: ani 2.5s forwards;
+  text-align: center;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.mm {
+  color: #eeeeee;
+  text-align: center;
+}
+button {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+background-color: #ac5353;
+color: white;
+border: none;
+border-radius: 5px;
+width: auto;
+}
+.tatar.jpg{
+margin-top: 20px;
+max-width: 100%;
+height: auto;
+display: block;
+width: auto;
+}
+.bach.jpg{
+margin-top: 20px;
+max-width: 100%;
+height: auto;
+display: block;
+width: auto;
+}
+.video{
+  height: auto;
+  width: auto;
+}
+.pora {
+   background-color: #63b2d1cc;
+    border-radius: 15px; 
+    color: #fff;
+    height: auto;
+    width:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  transform: translateY(40px);
+    
+}
+.imgg {
+    border-radius: 15px; 
+    color: #fff;
+    height: 400px;
+    width:700px;
+    
+}
+.imgig {
+  background-color: #63b2d1cc;
+    border-radius: 15px; 
+    color: #fff;
+    height: auto;
+    width:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  
+}
+.non {
+  background-color: #b9dcebcc;
+    border-radius: 15px; 
+    color: #fff;
+    height: auto;
+    width:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+  transform: translateY(70px);
+}
+.meow {
+  background-color: #b9dcebcc;
+    border-radius: 15px; 
+    color: #fff;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+}
+.hi {
+  background-color: #b9dcebcc;
+    color: #fff;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  border: 5px solid #638fc2 ;
+}
+.mmm {
+   background-color: #b9dcebcc;
+    border-radius: 15px; 
+    color: #fff;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.b3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.b2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img44 {
+  height: 150px;
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+ display: block;
+ border-radius: 20px; 
+ border: 5px solid #638fc2 ;
+     
+}
+.img55 {
+  height: 200px;
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+   width:40%;
+    display: block;
+    border-radius: 20px; 
+    border: 5px solid #638fc2 ;
+    
+}
+.img66 {
+  height: 200px;
+  width:100px;
+  margin-left: auto;
+  margin-right: auto;
+   width:40%;
+   display: block;
+   border-radius: 20px; 
+   border: 5px solid #638fc2 ;
+}
